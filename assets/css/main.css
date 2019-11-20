@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
 
-/*
-	Snapshot by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -96,11 +91,11 @@
 		color: #22313F;
 	}
 
-	body, input, select, textarea {
+	body, input, select, textarea, p {
 		font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
-		font-weight: 300;
 		line-height: 1.65;
+		/*font-weight: 300;*/
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -163,6 +158,8 @@
 
 	p {
 		margin: 0 0 2em 0;
+		/*font-weight: bold;*/
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -833,7 +830,10 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
+
 		}
+
+		/* MODIFICA BORDE*/
 
 			.gallery .content .media {
 				-moz-animation: gallery 0.75s ease-out 0.4s forwards;
@@ -844,7 +844,8 @@
 				overflow: hidden;
 				opacity: 0;
 				position: relative;
-				width: 25%;
+				width: 32.49%;
+				margin: 5px;
 			}
 
 				.gallery .content .media a {
@@ -1201,12 +1202,14 @@
 
 	section.special, article.special {
 		text-align: center;
+
 	}
 
 	section .inner, article .inner {
 		padding: 3.5em 0 1.5em 0;
 		padding-left: 3.5em;
 		padding-right: 3.5em;
+
 	}
 
 		@media screen and (max-width: 980px) {
@@ -1215,6 +1218,7 @@
 				padding: 2em 0 0.1em 0;
 				padding-right: 2em;
 				padding-left: 2em;
+
 			}
 
 		}
@@ -1225,6 +1229,7 @@
 				padding: 1em 0 0.1em 0;
 				padding-right: 1em;
 				padding-left: 1em;
+
 			}
 
 		}
@@ -1260,6 +1265,7 @@
 	header p {
 		position: relative;
 		margin: 0 0 1.5em 0;
+		font-weight: 300;
 	}
 
 	header h2 + p {
